@@ -14,7 +14,7 @@
     "lint": "eslint ./src",
     "prepublishOnly": "npm run lint && npm run test && npm run build",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook --output-dir ./docs"
   },
   "files": [
     "/lib"
